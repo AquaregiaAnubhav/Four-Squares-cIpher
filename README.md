@@ -21,52 +21,37 @@ The Four-Square cipher is a classical manual encryption technique that uses four
 
 ## Usage
 
-Make the script executable (once):
+[OPTIONAL] Make the script executable (once):
 
 ```bash
 chmod +x four_square_cryptography.R
 ```
 
-Then run from your terminal:
+Run from your terminal:
 
 ```bash
 # Encrypt
-./four_square_cryptography.R \
-  --key1 KEYWORD1 \
-  --key2 KEYWORD2 \
-  --process encrypt \
-  --input  path/to/input.txt \
-  --output path/to/output.txt
+./four_square_cryptography.R --key1 KEYWORD1 --key2 KEYWORD2 --process encrypt --input  path/to/input.txt --output path/to/output.txt
 
 # Decrypt
-./four_square_cryptography.R \
-  --key1 KEYWORD1 \
-  --key2 KEYWORD2 \
-  --process decrypt \
-  --input  path/to/encrypted.txt \
-  --output path/to/decrypted.txt
+./four_square_cryptography.R --key1 KEYWORD1 --key2 KEYWORD2 --process decrypt --input  path/to/encrypted.txt --output path/to/decrypted.txt
 ```
 
 Or with `Rscript`:
 
 ```bash
-Rscript four_square_cryptography.R \
-  --key1 WORD1 \
-  --key2 WORD2 \
-  --process encrypt \
-  --input  input.txt \
-  --output encrypted.txt
+Rscript four_square_cryptography.R --key1 KEYWORD1 --key2 KEYWORD2 --process encrypt --input  input.txt --output encrypted.txt
 ```
 
 ### Example
 
 ```bash
-./four_square_cryptography.R \
-  --key1 LIFE \
-  --key2 LOVE \
-  --process encrypt \
-  --input  input.txt \
-  --output output.txt
+./four_square_cryptography.R --key1 LIFE --key2 LOVE --process encrypt --input  input.txt --output output.txt
+```
+To better understand the use of the options, run from your terminal:
+
+```bash
+./four_square_cryptography.R --help
 ```
 
 ## How It Works
