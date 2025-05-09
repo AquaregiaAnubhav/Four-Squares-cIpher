@@ -10,7 +10,7 @@ The Four-Square cipher is a classical manual encryption technique that uses four
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/<your-username>/four-square-cipher.git
+   git clone https://github.com/AquaregiaAnubhav/Four-Squares-cIpher.git
    cd four-square-cipher
    ```
 2. **Install R (≥ 3.6.0)**  
@@ -21,7 +21,7 @@ The Four-Square cipher is a classical manual encryption technique that uses four
 
 ## Usage
 
-[OPTIONAL] Make the script executable (once):
+[OPTIONAL] You might need to make the script executable (once):
 
 ```bash
 chmod +x four_square_cryptography.R
